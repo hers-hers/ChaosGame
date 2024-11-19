@@ -1,0 +1,22 @@
+﻿  ChaosGame.cpp
+C:\Users\hersh\OneDrive\Desktop\VisualStudioProjects\CISP400\ChaosGame\ChaosGame.cpp(67,91): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\hersh\OneDrive\Desktop\VisualStudioProjects\CISP400\ChaosGame\ChaosGame.cpp(67,91): warning C4244:         with
+C:\Users\hersh\OneDrive\Desktop\VisualStudioProjects\CISP400\ChaosGame\ChaosGame.cpp(67,91): warning C4244:         [
+C:\Users\hersh\OneDrive\Desktop\VisualStudioProjects\CISP400\ChaosGame\ChaosGame.cpp(67,91): warning C4244:             T=float
+C:\Users\hersh\OneDrive\Desktop\VisualStudioProjects\CISP400\ChaosGame\ChaosGame.cpp(67,91): warning C4244:         ]
+C:\Users\hersh\OneDrive\Desktop\VisualStudioProjects\CISP400\ChaosGame\ChaosGame.cpp(67,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\hersh\OneDrive\Desktop\VisualStudioProjects\CISP400\ChaosGame\ChaosGame.cpp(67,70): warning C4244:         with
+C:\Users\hersh\OneDrive\Desktop\VisualStudioProjects\CISP400\ChaosGame\ChaosGame.cpp(67,70): warning C4244:         [
+C:\Users\hersh\OneDrive\Desktop\VisualStudioProjects\CISP400\ChaosGame\ChaosGame.cpp(67,70): warning C4244:             T=float
+C:\Users\hersh\OneDrive\Desktop\VisualStudioProjects\CISP400\ChaosGame\ChaosGame.cpp(67,70): warning C4244:         ]
+C:\Users\hersh\OneDrive\Desktop\VisualStudioProjects\CISP400\ChaosGame\ChaosGame.cpp(73,89): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\hersh\OneDrive\Desktop\VisualStudioProjects\CISP400\ChaosGame\ChaosGame.cpp(73,89): warning C4244:         with
+C:\Users\hersh\OneDrive\Desktop\VisualStudioProjects\CISP400\ChaosGame\ChaosGame.cpp(73,89): warning C4244:         [
+C:\Users\hersh\OneDrive\Desktop\VisualStudioProjects\CISP400\ChaosGame\ChaosGame.cpp(73,89): warning C4244:             T=float
+C:\Users\hersh\OneDrive\Desktop\VisualStudioProjects\CISP400\ChaosGame\ChaosGame.cpp(73,89): warning C4244:         ]
+C:\Users\hersh\OneDrive\Desktop\VisualStudioProjects\CISP400\ChaosGame\ChaosGame.cpp(73,68): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\hersh\OneDrive\Desktop\VisualStudioProjects\CISP400\ChaosGame\ChaosGame.cpp(73,68): warning C4244:         with
+C:\Users\hersh\OneDrive\Desktop\VisualStudioProjects\CISP400\ChaosGame\ChaosGame.cpp(73,68): warning C4244:         [
+C:\Users\hersh\OneDrive\Desktop\VisualStudioProjects\CISP400\ChaosGame\ChaosGame.cpp(73,68): warning C4244:             T=float
+C:\Users\hersh\OneDrive\Desktop\VisualStudioProjects\CISP400\ChaosGame\ChaosGame.cpp(73,68): warning C4244:         ]
+  ChaosGame.vcxproj -> C:\Users\hersh\OneDrive\Desktop\VisualStudioProjects\CISP400\ChaosGame\x64\Debug\ChaosGame.exe
