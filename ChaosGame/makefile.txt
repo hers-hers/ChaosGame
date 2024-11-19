@@ -1,16 +1,21 @@
-CXX = g++
-CXXFLAGS = -Wall -std=c++17
+SRC_DIR := ./code
+OBJ_DIR := .
+SRC_FILES := $(wildcard $(SRC_DIR)/*.cpp)
+OBJ_FILES := $(patsubst $(SRC_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(SRC_FILES))
+LDFLAGS := -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+CXXFLAGS := -g -Wall -fpermissive -std=c++17
+TARGET := triangle.out
 
-LIBS = -lsfml-graphics -lsfml-window -lsfml-system
 
-TARGET = ChaosGame
 
-SRC = ChaosGame.cpp
+$(TARGET): $(OBJ_FILES)
+	g++ -o $@ $^ $(LDFLAGS)
 
-all: $(TARGET)
+$(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
+	g++ $(CXXFLAGS) -c -o $@ $<
 
-$(TARGET): $(SRC)
-	$(CXX) $(CXXFLAGS) $(SRC) -o $(TARGET) $(LIBS)
+run:
+	./$(TARGET)
 
 clean:
-	rm -f $(TARGET)
+	rm $(TARGET) *.o
