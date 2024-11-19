@@ -1,0 +1,16 @@
+CXX = g++
+CXXFLAGS = -Wall -std=c++17
+
+LIBS = -lsfml-graphics -lsfml-window -lsfml-system
+
+TARGET = ChaosGame
+
+SRC = ChaosGame.cpp
+
+all: $(TARGET)
+
+$(TARGET): $(SRC)
+	$(CXX) $(CXXFLAGS) $(SRC) -o $(TARGET) $(LIBS)
+
+clean:
+	rm -f $(TARGET)
